@@ -7,9 +7,15 @@
          location:Joi.string().required(),
          country:Joi.string().required(),
          price:Joi.number().required().min(0),
-       //   image:Joi.string().allow("",null)
-    }).required(),
+      image:Joi.string().allow("",null),
+      owner:Joi.string().required,
+//        {
+//   filename: 'listingimage',
+//   url: 'https://images.unsplash.com/photo-....'
+// }
 
+    }).required(),
+// owner:Joi.string().required,
     });
 
     module.exports.reviewSchema= Joi.object({

@@ -1,6 +1,6 @@
  require("dotenv").config();
  const mongoose = require("mongoose");
-
+const { ObjectId } = require("mongodb");
 const initData = require("./data.js");
 const Listing = require("../models/listing.js");
 const mbxGeocoding = require('@mapbox/mapbox-sdk/services/geocoding');
@@ -30,7 +30,12 @@ const initDB = async () => {
   await Listing.deleteMany({});
   initData.data = initData.data.map((obj) => ({
     ...obj,
-    owner: "68a96b4281396b2fc5d228fe",
+    owner:  {
+      _id: new ObjectId("68b80950cf39e659cb8ef39f"),
+      email: "wwe@gmail.com",
+      username: "wwe",
+      __v: 0,
+    },
   }));
 
   for (let obj of initData.data) {
@@ -60,3 +65,5 @@ const initDB = async () => {
 
 
 initDB();
+
+

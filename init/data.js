@@ -1,3 +1,10 @@
+  const ownerObj = {
+
+  email: "wwe@gmail.com",
+  username: "wwe",
+  __v: 0,
+};
+  
   const sampleListings = [
   {
     title: "Cozy Beachfront Cottage",
@@ -10,6 +17,9 @@
     price: 1500,
     location: "Malibu",
     country: "United States",
+    owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Modern Loft in Downtown",
@@ -22,6 +32,9 @@
     price: 1200,
     location: "New York City",
     country: "United States",
+    owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Mountain Retreat",
@@ -34,6 +47,9 @@
     price: 1000,
     location: "Aspen",
     country: "United States",
+    owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Historic Villa in Tuscany",
@@ -46,6 +62,9 @@
     price: 2500,
     location: "Florence",
     country: "Italy",
+   owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Secluded Treehouse Getaway",
@@ -58,6 +77,9 @@
     price: 800,
     location: "Portland",
     country: "United States",
+    owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Beachfront Paradise",
@@ -70,6 +92,9 @@
     price: 2000,
     location: "Cancun",
     country: "Mexico",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Rustic Cabin by the Lake",
@@ -82,6 +107,9 @@
     price: 900,
     location: "Lake Tahoe",
     country: "United States",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Luxury Penthouse with City Views",
@@ -94,6 +122,9 @@
     price: 3500,
     location: "Los Angeles",
     country: "United States",
+ owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Ski-In/Ski-Out Chalet",
@@ -106,6 +137,9 @@
     price: 3000,
     location: "Verbier",
     country: "Switzerland",
+  owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Safari Lodge in the Serengeti",
@@ -118,6 +152,9 @@
     price: 4000,
     location: "Serengeti National Park",
     country: "Tanzania",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Historic Canal House",
@@ -130,6 +167,9 @@
     price: 1800,
     location: "Amsterdam",
     country: "Netherlands",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Private Island Retreat",
@@ -142,6 +182,9 @@
     price: 10000,
     location: "Fiji",
     country: "Fiji",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Charming Cottage in the Cotswolds",
@@ -154,6 +197,9 @@
     price: 1200,
     location: "Cotswolds",
     country: "United Kingdom",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Historic Brownstone in Boston",
@@ -166,6 +212,9 @@
     price: 2200,
     location: "Boston",
     country: "United States",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Beachfront Bungalow in Bali",
@@ -178,6 +227,9 @@
     price: 1800,
     location: "Bali",
     country: "Indonesia",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Mountain View Cabin in Banff",
@@ -190,6 +242,9 @@
     price: 1500,
     location: "Banff",
     country: "Canada",
+    owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Art Deco Apartment in Miami",
@@ -202,6 +257,9 @@
     price: 1600,
     location: "Miami",
     country: "United States",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Tropical Villa in Phuket",
@@ -214,6 +272,9 @@
     price: 3000,
     location: "Phuket",
     country: "Thailand",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Historic Castle in Scotland",
@@ -226,6 +287,9 @@
     price: 4000,
     location: "Scottish Highlands",
     country: "United Kingdom",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Desert Oasis in Dubai",
@@ -238,6 +302,9 @@
     price: 5000,
     location: "Dubai",
     country: "United Arab Emirates",
+   owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Rustic Log Cabin in Montana",
@@ -250,6 +317,9 @@
     price: 1100,
     location: "Montana",
     country: "United States",
+  owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Beachfront Villa in Greece",
@@ -262,6 +332,9 @@
     price: 2500,
     location: "Mykonos",
     country: "Greece",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Eco-Friendly Treehouse Retreat",
@@ -274,6 +347,9 @@
     price: 750,
     location: "Costa Rica",
     country: "Costa Rica",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Historic Cottage in Charleston",
@@ -286,6 +362,9 @@
     price: 1600,
     location: "Charleston",
     country: "United States",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Modern Apartment in Tokyo",
@@ -298,6 +377,9 @@
     price: 2000,
     location: "Tokyo",
     country: "Japan",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Lakefront Cabin in New Hampshire",
@@ -310,6 +392,9 @@
     price: 1200,
     location: "New Hampshire",
     country: "United States",
+  owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Luxury Villa in the Maldives",
@@ -322,6 +407,9 @@
     price: 6000,
     location: "Maldives",
     country: "Maldives",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Ski Chalet in Aspen",
@@ -334,6 +422,9 @@
     price: 4000,
     location: "Aspen",
     country: "United States",
+owner:{
+      username:"wwe",
+    },
   },
   {
     title: "Secluded Beach House in Costa Rica",
@@ -346,7 +437,11 @@
     price: 1800,
     location: "Costa Rica",
     country: "Costa Rica",
+  owner:{
+      username:"wwe",
+    },
   },
 ];
 
 module.exports = { data: sampleListings };
+
